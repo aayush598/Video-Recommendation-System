@@ -127,11 +127,11 @@ def preprocess_data(user_json, liked_posts_json, viewed_posts_json):
 # Example usage with JSON data
 if __name__ == "__main__":
     # Load JSON data (replace with actual data in your case)
-    with open('users.json', 'r') as f:
+    with open('data/users.json', 'r') as f:
         user_json = json.load(f)
-    with open('liked_posts.json', 'r') as f:
+    with open('data/liked_posts.json', 'r') as f:
         liked_posts_json = json.load(f)
-    with open('viewed_posts.json', 'r') as f:
+    with open('data/viewed_posts.json', 'r') as f:
         viewed_posts_json = json.load(f)
     
     # Process the data
